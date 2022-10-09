@@ -23,4 +23,7 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
 * `data` contains: 
 
+ * `disaster_messages.csv` - a .csv file containing the disaster messages. 
+ * `diasster_categories.csv` - a .csv file containing the labels of each message. 
  * `process_data.py` - imports and merges data from `disaster_messages.csv` and `disaster_categories.csv`, cleans the data and saves it into an SQLlitw database. 
+
