@@ -5,7 +5,7 @@
 1. Navigate to the project's directory. 
 2. Run the following commands to create SQLlite database and classifier: 
  * `python3 data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
- * `python3 models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+ * `python3 models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 3. Go to the `app` folder. 
 4. Run `python3 run.py` to run the web application. 
 5. Open web browser and go to the specified local host address (port 3000) which appears in terminal. 
