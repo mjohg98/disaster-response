@@ -20,7 +20,6 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
   * `run.py` is a Python script that runs the web application, renders the home and results pages from the `go.html` and `master.html` templates in the `templates` subfolder. 
 
-
 * `data` contains: 
 
  * `disaster_messages.csv` - a .csv file containing the disaster messages. 
