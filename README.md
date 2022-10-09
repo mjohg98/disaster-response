@@ -18,11 +18,15 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
 * The `app` folder contains the following files: 
 
-  * `run.py` is a Python script that runs the web application, renders the home and results pages from the `go.html` and `master.html` templates in the `templates` subfolder. 
+  * `run.py` is the script that runs the web application, renders the home and results pages from the `go.html` and `master.html` templates in the `templates` subfolder. 
 
-* `data` contains: 
+* The `data` folder contains: 
 
   * `disaster_messages.csv` - a .csv file containing the disaster messages. 
   * `diasster_categories.csv` - a .csv file containing the labels of each message. 
-  * `process_data.py` - imports and merges data from `disaster_messages.csv` and `disaster_categories.csv`, cleans the data and saves it into an SQLlitw database. 
+  * `process_data.py` - this script imports and merges data from `disaster_messages.csv` and `disaster_categories.csv`, cleans the data and saves it into an SQLlite database. 
+
+* The `models` folder contains: 
+
+  * `train_classifier.py` - this script loads the data from the SQLlite database and splits the data into a training and test sets. Then the classifier is created, trained using the training set and evaulated on the test set. 
 
