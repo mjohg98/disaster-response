@@ -16,4 +16,5 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
 ## Files 
 
-* `app`
+* The `app` folder contains the following files: 
+  * `run.py` 
