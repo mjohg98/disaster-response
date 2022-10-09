@@ -17,4 +17,5 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 ## Files 
 
 * The `app` folder contains the following files: 
-  * `run.py` 
+
+  * `run.py` is a Python script that runs the web application, renders the home and results pages from the `go.html` and `master.html` templates in the `templates` subfolder. 
