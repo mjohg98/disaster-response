@@ -19,3 +19,8 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 * The `app` folder contains the following files: 
 
   * `run.py` is a Python script that runs the web application, renders the home and results pages from the `go.html` and `master.html` templates in the `templates` subfolder. 
+
+
+* `data` contains: 
+
+ * `process_data.py` - imports and merges data from `disaster_messages.csv` and `disaster_categories.csv`, cleans the data and saves it into an SQLlitw database. 
