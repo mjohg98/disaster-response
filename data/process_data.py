@@ -59,7 +59,6 @@ def clean_data(df):
     
     # related has '2' as a label, assumed to mean 'Maybe'. Consider these messages as 'No' for related 
     # and convert their labels to 0. 
-    
     categories['related'] = categories['related'].replace(2, 1) 
     
     # drop the original categories column 
