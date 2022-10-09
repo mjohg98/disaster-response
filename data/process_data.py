@@ -49,14 +49,19 @@ def clean_data(df):
 
     # relablling the columns of categories dataframe
     categories.columns = category_colnames
-
+    
     for column in categories: 
         # set each value to be the last character of each string 
         categories[column] = [x[-1] for x in categories[column]]
 
         # convert column from string to numeric
         categories[column] = categories[column].astype('int64')
-
+    
+    # related has '2' as a label, assumed to mean 'Maybe'. Consider these messages as 'No' for related 
+    # and convert their labels to 0. 
+    
+    categories['related'] = categories['related'].replace(2, 1) 
+    
     # drop the original categories column 
     df.drop('categories', axis=1, inplace=True)
 
