@@ -38,7 +38,7 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
 ### Results page: 
 
-![Web App Results 1](/images/results2.png)
+![Web App Results 1](/images/results1.png)
 
 ![Web App Results 2](/images/results2.png)
 
