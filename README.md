@@ -34,6 +34,13 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 
 ![Web App Homepage 1](/images/homepage1.png)
 
+![Web App Homepage 2](/images/homepage2.png)
+
+### Results page: 
+
+![Web App Results 1](/images/results2.png)
+
+![Web App Results 2](/images/results2.png)
 
 
 
