@@ -1,5 +1,7 @@
 # Disaster Response Message Classification
 
+The web application home page displays a few visuals summarising aspects of the dataset and an interface for viewers to classify their own messages using the model described below. 
+
 ## Data
 
 The dataset consisted of 26,248 messages that were sent in the midst of natural disasters. Each message has been labelled a 0 or 1 ("Yes"/"No") with respect to 36 categories of messages. 
@@ -27,4 +29,8 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 * The `models` folder contains: 
 
   * `train_classifier.py` - this script loads the data from the SQLlite database and splits the data into a training and test sets. Then the classifier is created, trained using the training set and evaulated on the test set. 
+
+## Screenshots of web application
+
+
 
