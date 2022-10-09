@@ -1,5 +1,15 @@
 # Disaster Response Message Classification
 
+## Running the Web Application 
+
+1. Navigate to the project's directory. 
+2. Run the following commands to create SQLlite database and classifier: 
+ * `python3 data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+ * `python3 models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+3. Go to the `app` folder. 
+4. Run `python3 run.py` to run the web application. 
+5. Open web browser and go to the specified local host address (port 3000) which appears in terminal. 
+
 ## Data
 
 The dataset consisted of 26,248 messages that were sent in the midst of natural disasters. Each message has been labelled a 0 or 1 ("Yes"/"No") with respect to 36 categories of messages. 
