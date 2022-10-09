@@ -12,8 +12,6 @@ The model used was constructed as an sklearn pipeline and consists of the follow
 * TfidfTransformer - transforms the matrix of token counts to a tf-idf (term frequency-inverse document frequency) representation.
 * MultiOutputClassifier - using a random forest as the base classifier, predicts labels for the 36 categories. 
 
-### Results
-
 ## Files 
 
 * The `app` folder contains the following files: 
