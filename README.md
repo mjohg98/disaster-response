@@ -1,6 +1,6 @@
 # Disaster Response Message Classification
 
-The web application home page displays a few visuals summarising aspects of the dataset and an interface for viewers to classify their own messages using the model described below. 
+The aim of this project was to create a web application in order to classify disaster messages using a machine learning model. The web application home page displays a few visuals summarising aspects of the dataset and an interface for viewers to classify their own messages using the model described below. 
 
 ## Data
 
